@@ -8,7 +8,7 @@ use Cake\ORM\Entity;
 /**
  * Hospital Entity
  *
- * @property string $hospitalID
+ * @property int $hospitalID
  * @property string $hospitalName
  * @property string $address
  * @property string $contactInfo

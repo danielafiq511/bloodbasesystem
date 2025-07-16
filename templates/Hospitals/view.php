@@ -19,10 +19,6 @@
             <h3><?= h($hospital->hospitalName) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('HospitalID') ?></th>
-                    <td><?= h($hospital->hospitalID) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('HospitalName') ?></th>
                     <td><?= h($hospital->hospitalName) ?></td>
                 </tr>
@@ -33,6 +29,10 @@
                 <tr>
                     <th><?= __('ContactInfo') ?></th>
                     <td><?= h($hospital->contactInfo) ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('HospitalID') ?></th>
+                    <td><?= $this->Number->format($hospital->hospitalID) ?></td>
                 </tr>
             </table>
         </div>

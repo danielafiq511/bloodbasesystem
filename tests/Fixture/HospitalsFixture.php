@@ -19,7 +19,7 @@ class HospitalsFixture extends TestFixture
     {
         $this->records = [
             [
-                'hospitalID' => 'ae9f9acf-a6bd-4e80-87b9-16180b72f037',
+                'hospitalID' => 1,
                 'hospitalName' => 'Lorem ipsum dolor sit amet',
                 'address' => 'Lorem ipsum dolor sit amet',
                 'contactInfo' => 'Lorem ipsu',

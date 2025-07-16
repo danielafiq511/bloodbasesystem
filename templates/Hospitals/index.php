@@ -21,7 +21,7 @@
             <tbody>
                 <?php foreach ($hospitals as $hospital): ?>
                 <tr>
-                    <td><?= h($hospital->hospitalID) ?></td>
+                    <td><?= $this->Number->format($hospital->hospitalID) ?></td>
                     <td><?= h($hospital->hospitalName) ?></td>
                     <td><?= h($hospital->address) ?></td>
                     <td><?= h($hospital->contactInfo) ?></td>
