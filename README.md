@@ -68,7 +68,7 @@ git config --global user.email "your.email@example.com"
 -  Open Command Prompt in that folder
 - Copy and paste this command:
 ```bash
-git clone https://github.com/puromed/bloodbasesystem.git
+git clone https://github.com/danielafiq511/bloodbasesystem.git
 ```
 
 4. Set up the project
